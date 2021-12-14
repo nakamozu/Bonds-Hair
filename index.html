@@ -7,31 +7,39 @@
     <title>Bonds Hair</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <div class="header__inner">
-            <div class="header__logo-box">
-                <a href="#" class="header__logo-link">
-                    <img src="" alt="Bonds Hair">
-                </a>
-            </div>
-            <div class="header__gnav-box">
-                <ul class="header__gnav-list">
-                    <li class="header__gnav-item"><a href="#">CONCEPT</a></li>
-                    <li class="header__gnav-item"><a href="#">MENU</a></li>
-                    <li class="header__gnav-item"><a href="#">STAFF</a></li>
-                    <li class="header__gnav-item"><a href="#">RECRUIT</a></li>
-                    <li class="header__gnav-item"><a href="#">ACCESS</a></li>
-                </ul>
-                <ul class="header__snav-list --sns">
-                    <li class="sns-icons__item">
-                        <p>ご予約はコチラ</p>
-                    </li>
-                    <li class="sns-icons__item"><a href=""><img src="" alt="ホットペッパービューティ＝"></a></li>
-                    <li class="sns-icons__item"><a href=""><img src="" alt="Instagram"></a></li>
-                </ul>        
-            </div>
+        <div class="header__logo-box">
+            <a href="" class="header__logo-link">
+                <div class="header__logo-icon">
+                    <img src="./assets/img/Bonds_Hair.png" alt="Bonds Hair">
+                </div>
+                <h1 class="header__logo-text">
+                    <span class="header__logo-text-a">メンズ専用ヘアーサロン</span>
+                    <span class="header__logo-text-b">Bonds Hair</span>
+                </h1>    
+            </a>
+        </div>
+        <div class="header__nav-box">
+            <ul class="header__gnav-list">
+                <li class="header__gnav-item"><a href="#concept">CONCEPT</a></li>
+                <li class="header__gnav-item"><a href="#menu">MENU</a></li>
+                <li class="header__gnav-item"><a href="#staff">STAFF</a></li>
+                <li class="header__gnav-item"><a href="#recruit">RECRUIT</a></li>
+                <li class="header__gnav-item"><a href="#access">ACCESS</a></li>
+            </ul>
+            <ul class="header__snav-list --sns">
+                <li class="header__snav-text">
+                    <p>ご予約は<br>コチラ</p>
+                </li>
+                <li class="header__snav-icon"><a href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000369200" target="_blank" rel="noopener noreferrer"><img src="./assets/img/hot_pepper_beauty.png" alt="ホットペッパービューティー"></a></li>
+                <li class="header__snav-icon"><a href="https://www.instagram.com/bondshair2016/" target="_blank" rel="noopener noreferrer"><img src="./assets/img/Instagram.png" alt="Instagram"></a></li>
+            </ul>        
         </div>
     </header>
 
@@ -43,165 +51,169 @@
 
     <main class="main">
         <div class="sect-mv">
-            <picture>
-                <source srcset="" media="(max-width:640px)">
-                <source srcset="">
-                <img src="" alt="">
-            </picture>
+            <img src="./assets/img/店内写真1.JPG" alt="店内写真1">
         </div>
 
-        <section class="sect-concept">
+        <section class="sect-concept" id="concept">
             <div class="sect-concept__inner container">
-                <h1>CONCEPT</h1>
+                <div class="sect-title">
+                    <h2>CONCEPT</h2>
+                </div>
                 <div class="sect-concept__flex">
-                    <div class="sect-concept__item">
-                        <h2>コンセプト</h2>
-                        <img src="" alt="">
+                    <div class="sect-concept__flex-text">
+                        <h3>コンセプト</h3>
                         <p>
-                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                             ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                             ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                             ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                         </p>
                     </div>
+                    <div class="sect-concept__flex-img">
+                        <img src="./assets/img/作業風景1.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="sect-menu">
+        <section class="sect-menu" id="menu">
             <div class="sect-menu__inner container">
-                <h1>MENU</h1>
+                <div class="sect-title">
+                    <h2>MENU</h2>
+                </div>
                 <div class="sect-menu__box">
-                    <dl class="sect-menu__box-item">
-                        <dt class="sect-menu__title">カットのみ</dt>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">一般</p>
-                            <p class="sect-menu__price-price">￥1,750</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">シニア（６０歳以上）</p>
-                            <p class="sect-menu__price-price">￥1,750</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">中学生</p>
-                            <p class="sect-menu__price-price">￥1,750</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">小学生以下</p>
-                            <p class="sect-menu__price-price">￥1,300</p>
-                        </dd>
-                    </dl>
-                    <dl class="sect-menu__box-item">
-                        <dt class="sect-menu__title">カット+シャンプーorシェイビング</dt>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">一般</p>
-                            <p class="sect-menu__price-price">￥2,100</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">シニア（６０歳以上）</p>
-                            <p class="sect-menu__price-price">￥1,950</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">中学生</p>
-                            <p class="sect-menu__price-price">￥1,950</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">小学生以下</p>
-                            <p class="sect-menu__price-price">￥1,500</p>
-                        </dd>
-                    </dl>
-                    <dl class="sect-menu__box-item">
-                        <dt class="sect-menu__title">カット+シャンプー+シェイビング</dt>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">一般</p>
-                            <p class="sect-menu__price-price">￥2,500</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">シニア（６０歳以上）</p>
-                            <p class="sect-menu__price-price">￥2,100</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">中学生</p>
-                            <p class="sect-menu__price-price">￥2,100</p>
-                        </dd>
-                    </dl>
-                    <dl class="sect-menu__box-item">
-                        <dt class="sect-menu__title">セットメニュー（カット+シャンプー+シェイビング含む）</dt>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">ファッションカラー</p>
-                            <p class="sect-menu__price-price">￥6,600～</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">グレイッシュカラー（白髪染め）</p>
-                            <p class="sect-menu__price-price">￥5,500～</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">※ブリーチ（一回）</p>
-                            <p class="sect-menu__price-price">￥4,500</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">パーマ</p>
-                            <p class="sect-menu__price-price">￥7,700～</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">部分縮毛矯正</p>
-                            <p class="sect-menu__price-price">￥3,500～</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">全体縮毛矯正</p>
-                            <p class="sect-menu__price-price">￥15,000</p>
-                        </dd>
-                    </dl>
-                    <dl class="sect-menu__box-item">
-                        <dt class="sect-menu__title">オプション・単品メニュー</dt>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">クイックスパ</p>
-                            <p class="sect-menu__price-price">+￥600</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">ヘアセット</p>
-                            <p class="sect-menu__price-price">￥1,100</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">ヘアセット・シャンプー付</p>
-                            <p class="sect-menu__price-price">￥1,500</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">メンズシェービング</p>
-                            <p class="sect-menu__price-price">￥1,750</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">レディースシェービング</p>
-                            <p class="sect-menu__price-price">要問合せ</p>
-                        </dd>
-                        <dd class="sect-menu__price">
-                            <p class="sect-menu__price-kind">ラインアート</p>
-                            <p class="sect-menu__price-price">￥1,100～</p>
-                        </dd>
-                    </dl>
+                    <div class="sect-menu__box-line">
+                        <dl class="sect-menu__box-item">
+                            <dt class="sect-menu__title">カットのみ</dt>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">一般</p>
+                                <p class="sect-menu__price-price">￥1,750</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">シニア（６０歳以上）</p>
+                                <p class="sect-menu__price-price">￥1,750</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">中学生</p>
+                                <p class="sect-menu__price-price">￥1,750</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">小学生以下</p>
+                                <p class="sect-menu__price-price">￥1,300</p>
+                            </dd>
+                        </dl>
+                        <dl class="sect-menu__box-item">
+                            <dt class="sect-menu__title">カット+シャンプーorシェイビング</dt>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">一般</p>
+                                <p class="sect-menu__price-price">￥2,100</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">シニア（６０歳以上）</p>
+                                <p class="sect-menu__price-price">￥1,950</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">中学生</p>
+                                <p class="sect-menu__price-price">￥1,950</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">小学生以下</p>
+                                <p class="sect-menu__price-price">￥1,500</p>
+                            </dd>
+                        </dl>
+                        <dl class="sect-menu__box-item">
+                            <dt class="sect-menu__title">カット+シャンプー+シェイビング</dt>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">一般</p>
+                                <p class="sect-menu__price-price">￥2,500</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">シニア（６０歳以上）</p>
+                                <p class="sect-menu__price-price">￥2,100</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">中学生</p>
+                                <p class="sect-menu__price-price">￥2,100</p>
+                            </dd>
+                        </dl>
+                        <dl class="sect-menu__box-item">
+                            <dt class="sect-menu__title">セットメニュー（カット+シャンプー+シェイビング含む）</dt>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">ファッションカラー</p>
+                                <p class="sect-menu__price-price">￥6,600～</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">グレイッシュカラー（白髪染め）</p>
+                                <p class="sect-menu__price-price">￥5,500～</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">※ブリーチ（一回）</p>
+                                <p class="sect-menu__price-price">￥4,500</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">パーマ</p>
+                                <p class="sect-menu__price-price">￥7,700～</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">部分縮毛矯正</p>
+                                <p class="sect-menu__price-price">￥3,500～</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">全体縮毛矯正</p>
+                                <p class="sect-menu__price-price">￥15,000</p>
+                            </dd>
+                        </dl>
+                        <dl class="sect-menu__box-item">
+                            <dt class="sect-menu__title">オプション・単品メニュー</dt>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">クイックスパ</p>
+                                <p class="sect-menu__price-price">￥600</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">ヘアセット</p>
+                                <p class="sect-menu__price-price">￥1,100</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">ヘアセット・シャンプー付</p>
+                                <p class="sect-menu__price-price">￥1,500</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">メンズシェービング</p>
+                                <p class="sect-menu__price-price">￥1,750</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">レディースシェービング</p>
+                                <p class="sect-menu__price-price">要問合せ</p>
+                            </dd>
+                            <dd class="sect-menu__price">
+                                <p class="sect-menu__price-kind">ラインアート</p>
+                                <p class="sect-menu__price-price">￥1,100～</p>
+                            </dd>
+                        </dl>    
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="sect-staff">
+        <section class="sect-staff" id="staff">
             <div class="sect-staff__inner container">
-                <h1>STAFF</h1>
+                <div class="sect-title">
+                    <h2>STAFF</h2>
+                </div>
                 <ul class="sect-staff__box">
                     <li class="sect-staff__item">
-                        <img src="" alt="" class="sect-staff__img">
+                        <img src="./assets/img/山脇伸介.JPG" alt="山脇 伸介" class="sect-staff__img">
                         <p class="sect-staff__name-jp">山脇 伸介</p>
                         <p class="sect-staff__name-en">Shinsuke Yamawaki</p>
                         <p class="sect-staff__job">stylist</p>
                     </li>
                     <li class="sect-staff__item">
-                        <img src="" alt="" class="sect-staff__img">
+                        <img src="./assets/img/占部法明.JPG" alt="占部 法明" class="sect-staff__img">
                         <p class="sect-staff__name-jp">占部 法明</p>
                         <p class="sect-staff__name-en">Noriaki Urabe</p>
                         <p class="sect-staff__job">stylist</p>
                     </li>
                     <li class="sect-staff__item">
-                        <img src="" alt="" class="sect-staff__img">
+                        <img src="./assets/img/下臺晴也.JPG" alt="下臺 晴也" class="sect-staff__img">
                         <p class="sect-staff__name-jp">下臺 晴也</p>
                         <p class="sect-staff__name-en">Seiya Shimodai</p>
                         <p class="sect-staff__job">assistant</p>
@@ -210,12 +222,14 @@
             </div>
         </section>
 
-        <section class="sect-recruit">
+        <section class="sect-recruit" id="recruit">
             <div class="sect-recruit__inner container">
-                <h1>RECRUIT</h1>
+                <div class="sect-title">
+                    <h2>RECRUIT</h2>
+                </div>
                 <div class="sect-recruit__flex">
                     <img src="" alt="" class="sect-recruit__img">
-                    <h2 class="sect-recruit__title">ここにテキストが入ります。</h2>
+                    <h3 class="sect-recruit__title">ここにテキストが入ります。</h3>
                     <p class="sect-recruit__text">
                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
@@ -226,34 +240,38 @@
             </div>
         </section>
 
-        <section class="sect-access">
-            <h1>ACCESS</h1>
-            <div class="sect-access__flex">
-                <dl class="sect-access__info">
-                    <div class="sect-access__info-logo">
-                        <img src="" alt="" class="sect-access__info-logoimg">
-                    </div>
-                    <dt class="sect-access__info-dt">住所:</dt>
-                    <dd class="sect-access__info-dd">
-                        〒731-0138<br>
-                        広島県広島市安佐南区祇園5丁目3-12 中本ビル１F<br>
-                    </dd>
-                    <dt class="sect-access__info-dt">駐車場:</dt>
-                    <dd class="sect-access__info-dd">7番と15番に駐車してください。</dd>
-                    <dt class="sect-access__info-dt">TEL:</dt>
-                    <dd class="sect-access__info-dd">082-555-9580</dd>
-                    <dt class="sect-access__info-dt">営業時間:</dt>
-                    <dd class="sect-access__info-dd">火～日 9:00～19:00</dd>
-                    <dt class="sect-access__info-dt">定休日:</dt>
-                    <dd class="sect-access__info-dd">月曜日・第三日曜日</dd>
-                    <div class="sect-access__info-time">
-                        下祗園駅から徒歩約15分<br>
-                        イオンモール祇園から徒歩約3分
-                    </div>
-                </dl>
-                <div class="sect-access__info-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13160.941584836763!2d132.460942!3d34.446172!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb25b89ae7f497dac!2sBonds%20Hair!5e0!3m2!1sja!2sjp!4v1639371230367!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <section class="sect-access" id="access">
+            <div class="sect-access__inner container">
+                <div class="sect-title">
+                    <h2>ACCESS</h2>
                 </div>
+                <div class="sect-access__flex">
+                    <dl class="sect-access__info">
+                        <div class="sect-access__info-logo">
+                            <img src="" alt="" class="sect-access__info-logoimg">
+                        </div>
+                        <dt class="sect-access__info-dt">住所:</dt>
+                        <dd class="sect-access__info-dd">
+                            〒731-0138<br>
+                            広島県広島市安佐南区祇園5丁目3-12 中本ビル１F<br>
+                        </dd>
+                        <dt class="sect-access__info-dt">駐車場:</dt>
+                        <dd class="sect-access__info-dd">7番と15番に駐車してください。</dd>
+                        <dt class="sect-access__info-dt">TEL:</dt>
+                        <dd class="sect-access__info-dd">082-555-9580</dd>
+                        <dt class="sect-access__info-dt">営業時間:</dt>
+                        <dd class="sect-access__info-dd">火～日 9:00～19:00</dd>
+                        <dt class="sect-access__info-dt">定休日:</dt>
+                        <dd class="sect-access__info-dd">月曜日・第三日曜日</dd>
+                        <div class="sect-access__info-time">
+                            下祗園駅から徒歩約15分<br>
+                            イオンモール祇園から徒歩約3分
+                        </div>
+                    </dl>
+                    <div class="sect-access__info-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13160.941584836763!2d132.460942!3d34.446172!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb25b89ae7f497dac!2sBonds%20Hair!5e0!3m2!1sja!2sjp!4v1639371230367!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>    
             </div>
         </section>
     </main>
