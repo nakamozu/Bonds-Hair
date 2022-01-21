@@ -1,7 +1,5 @@
 @charset "utf-8";
-
-* {
-}
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@400;700&display=swap';
 
 html {
     font-size: 10px;
@@ -20,6 +18,7 @@ body {
 
 h1 {
     font-size: 4.5rem;
+    font-family: 'Playfair Display', serif;
 }
 
 h2 {
@@ -37,7 +36,7 @@ img {
 }
 
 .container {
-    max-width: 1080px;
+    max-width: 1200px;
     width: 100%;
     padding: 100px 30px 0 30px;
     margin: auto;
@@ -49,6 +48,8 @@ img {
     height: 60px;
     display: flex;
     align-items: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
 }
 
 /* header */
@@ -107,6 +108,11 @@ img {
 
 .header__gnav-item {
     margin-bottom: 20px;
+    transition: .1s;
+}
+
+.header__gnav-item:hover {
+    transform: scale(1.15);
 }
 
 .header__gnav-item:last-of-type {
@@ -129,6 +135,11 @@ img {
     margin: 0 auto;
     width: 45px;
     margin-bottom: 20px;
+    transition: .2s;
+}
+
+.header__snav-icon:hover {
+    transform: scale(1.2,1.2);
 }
 
 .header__snav-icon:last-of-type {
@@ -182,6 +193,7 @@ img {
 
 .sect-concept__flex-img img {
     width: 70%;
+    box-shadow: 3px 3px 15px #141F24;
 }
 
 /* MENU */
@@ -229,4 +241,173 @@ img {
 
 .sect-menu__price-price {
     order: 2;
+}
+
+/* STAFF */
+.sect-staff {
+    background: #141F24;
+    margin-top: 100px;
+}
+
+.sect-staff__inner {
+    padding: 30px 0 30px 30px;
+}
+
+.sect-staff__inner .sect-title {
+    color: #cecece;
+    border: 1.5px solid #cecece;
+}
+
+.sect-staff__box {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+}
+
+.sect-staff__item {
+    width: 31%;
+    height: auto;
+    position: relative;
+    color: #cecece;
+}
+
+.sect-staff__item img {
+    width: 89%;
+}
+
+.sect-staff__name-ja {
+    font-size: 2rem;
+    position: absolute;
+    bottom: -34px;
+    left: 0;
+}
+
+.sect-staff__name-en {
+    position: absolute;
+    top: 0;
+    right: 0;
+    writing-mode: vertical-rl;
+    padding-top: 5px;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.sect-staff__job {
+    position: absolute;
+    bottom: -34px;
+    right: 11%;
+}
+
+/* RECRUIT */
+.sect-recruit__flex {
+    margin: 30px 0 0 70px;
+    position: relative;
+}
+
+.sect-recruit__flex img {
+    width: 70%;
+    box-shadow: 3px 3px 15px #141F24;
+}
+
+.sect-recruit__flex-text {
+    z-index: 10;
+}
+
+.sect-recruit__flex-text h3 {
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+
+.sect-recruit__flex-text p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 500px;
+    background-color: rgba(238,238,238,.8);
+    padding: 15px;
+}
+
+.sect-recruit__button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 70px;
+    background: #141F24;
+    color: #cecece;
+    margin: 50px auto 0;
+}
+
+/* ACCESS */
+.sect-access__inner {
+    background-image: url("../img/木目.jpg");
+    background-size: cover;
+    background-position: 0% 50%;
+    color: #cecece;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.sect-access .sect-title {
+    border-color: #cecece;
+}
+
+.sect-access__flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0 50px;
+}
+
+.sect-access__info {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sect-access__info dt {
+    width: 25%;
+}
+
+.sect-access__info-dt {
+    text-align: justify;
+    text-align-last: justify;
+    text-justify: inter-ideograph;
+}
+
+.sect-access__info dd {
+    width: 75%;
+}
+
+.sect-access__info-dd {
+    padding-left: 15px;
+}
+
+.sect-access__info-logo {
+    width: 100%;
+}
+
+.sect-access__info-logoimg {
+    width: 60px;
+}
+
+.sect-access__info-logotext {
+    font-size: 4.5rem;
+    line-height: 1;
+    font-family: 'Playfair Display', serif;
+}
+
+.sect-access__map {
+    width: 55%;
+}
+
+/* footer */
+#footer {
+    background: #141F24;
+    color: #cecece;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
 }
