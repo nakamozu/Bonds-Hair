@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import 'https://fonts.googleapis.com/css?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@400;700&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@400;700&display=swap';
 
 html {
     font-size: 10px;
@@ -19,6 +19,7 @@ h1 {
     font-size: 4.5rem;
     font-family: 'Playfair Display', serif;
     font-weight: 500;
+    text-shadow: #000 0px 0px 20px;
 }
 
 h2 {
@@ -96,6 +97,7 @@ img {
     bottom: 50px;
     left: 50px;
     z-index: 10;
+    box-shadow: #1e292e 3px 3px 6px;
 }
 
 .back-btn a {
