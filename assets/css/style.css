@@ -248,11 +248,11 @@ img {
 
 /* STAFF */
 .sect-staff {
-    background: #141F24;
     margin-top: 100px;
 }
 
 .sect-staff__inner {
+    background: #141F24;
     padding: 30px 0 30px 30px;
 }
 
@@ -341,13 +341,13 @@ img {
     color: #cecece;
     margin: 50px auto 0;
     border: solid 1px #cecece;
+    transition: all 0.2s;
 }
 
 .sect-recruit__button a:hover {
     background: #D3CBBC;
     color: #141F24;
     border: solid 1px #141F24;
-
 }
 
 /* ACCESS */
@@ -421,4 +421,214 @@ img {
     justify-content: center;
     align-items: center;
     height: 25px;
+}
+
+/* レスポンシブ */
+@media screen and (max-width: 959px) {
+
+    body {
+        margin-right: 0;
+    }
+
+    .container {
+        padding: 100px 20px 0;
+        margin: 0 auto 0;
+    }
+
+    /* header */
+    .header__logo-box {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 1001;
+    }
+
+    .header__logo-icon {
+        width: 40px;
+    }
+
+    .header__logo-text {
+        color: #cecece;
+        justify-content: flex-start;
+        height: 41px;
+    }
+
+    .header__logo-text-b {
+        font-size: 2.5rem;
+    }
+
+    .header__nav-box {
+        width: 100%;
+        height: 60px;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .header__gnav-list {
+        writing-mode: horizontal-tb;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: -120%;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 60px);
+        background: rgba(0, 0, 0, .8);
+        font-size: 3rem;
+        transition: all 0.5s ease-out;
+        z-index: -2;
+    }
+
+    .header__gnav-list.active {
+        top: 60px;
+    }
+
+    .header__gnav-item:nth-of-type(1) {
+        margin-top: 20px;
+    }
+
+    .header__snav-text {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+
+    .header__snav-list {
+        display: flex;
+        margin: 0 60px 0 auto;
+    }
+
+    .header__snav-icon {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+    /* ハンバーガーメニュー */
+    .header__drawer-btn {
+        display: block;
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        top: 5px;
+        right: 10px;
+        z-index: 1001;
+    }
+
+    .header__drawer-btn-area {
+        position: relative;
+        width: 35px;
+        height: 20px;
+        margin: auto;
+        transition: all 0.5s;
+    }
+
+    .header__drawer-btn-area span {
+        position: absolute;
+        display: inline-block;
+        height: 3px;
+        width: 35px;
+        border-radius: 2px;
+        background: #cecece;
+        transition: all 0.5s;
+    }
+
+    .header__drawer-btn-area span:nth-of-type(1) {
+        top: 0px;
+    }
+    
+    .header__drawer-btn-area span:nth-of-type(2) {
+        top: 8.5px;
+    }
+
+    .header__drawer-btn-area span:nth-of-type(3) {
+        bottom: 0px;
+    }
+
+    .header__drawer-btn-area.active span:nth-of-type(1) {
+        transform: translateY(8.5px) rotate(-45deg);
+    }
+
+    .header__drawer-btn-area.active span:nth-of-type(2) {
+        opacity: 0;
+    }
+
+    .header__drawer-btn-area.active span:nth-of-type(3) {
+        transform: translateY(-8.5px) rotate(45deg);
+    }
+
+
+
+    /* main */
+    .main {
+        margin-top: 60px;
+    }
+
+    .sect-mv {
+        width: 100vw;
+        height: calc(100vh - 60px);
+    }
+
+    /* concept */
+    .sect-concept__flex {
+        margin: 30px 0 0 0;
+    }
+
+    .sect-concept__flex-img img {
+        width: 100%;
+    }
+
+    /* menu */
+    .sect-menu__box {
+        margin: 30px 20px 0 20px;
+    }
+
+    .sect-menu__box-line {
+        padding: 30px 10px;
+    }
+
+    /* staff */
+    .sect-staff {
+        margin-top: 40px;
+        padding-top: 60px;
+    }
+
+    .sect-staff__inner {
+        padding: 30px 20px;
+    }
+
+    .sect-staff__name-en {
+        line-height: 0.4;
+        font-size: 3.6vw;
+    }
+
+    /* recruit */
+    .sect-recruit__flex {
+        margin: 30px 0 0 0;
+    }
+
+    .sect-recruit__flex img {
+        width: 100%;
+    }
+
+    /* access */
+    .sect-access {
+        margin-top: 40px;
+        padding: 30px 0;
+    }
+
+    .sect-access__inner {
+        padding-top: 30px;
+    }
+
+    .sect-access__info {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .sect-access__map {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 519px) {
+    
 }
