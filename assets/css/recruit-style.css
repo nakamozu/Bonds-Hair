@@ -174,9 +174,11 @@ dd {
 }
 
 .sect-form__form {
+    height: 1000px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
+    margin-bottom: 30px;
     width: 100%;
 }
 
@@ -204,11 +206,6 @@ dd {
         font-size: 2.5rem
     }
 
-    .sect-requirements__flex {
-        width: 70vw;
-    }
-
-
     dt {
         width: 30%;
     }
@@ -217,15 +214,44 @@ dd {
         width: 70%;
     }
 
+    .sect-requirements__flex {
+        width: 70vw;
+    }
+
     .sect-company__flex {
         width: 70vw;
     }
 
     .sect-form__form {
+        height: 1000px;
         margin-bottom: 30px;
+    }
+
+    .back-btn {
+        bottom: 30px;
+        left: 30px;
     }
 }
 
 @media screen and (max-width: 519px) {
-    
+    .container {
+        padding: 100px 15px 0 15px;
+    }
+
+    .sect-requirements__flex {
+        width: 80vw;
+    }
+
+    .sect-company__flex {
+        width: 80vw;
+    }
+
+    .sect-form__form {
+        height: 800px;
+    }
+
+    .back-btn {
+        width: 35px;
+        height: 35px;
+    }
 }
