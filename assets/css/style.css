@@ -630,5 +630,99 @@ img {
 }
 
 @media screen and (max-width: 519px) {
-    
+    .header__logo-text {
+        margin-right: 8px;
+    }
+
+    .header__logo-text-a {
+        font-size: 1.5rem;
+        letter-spacing: -0.2rem;
+    }
+
+    .header__snav-text {
+        display: none;
+    }
+
+    .header__snav-icon {
+        width: 35px;
+        margin-right: 10px;
+    }
+
+    .sect-concept__flex-text h3 {
+        font-size: 6vw;
+        top: 36%;
+    }
+
+    .sect-concept__flex-text p {
+        position: static;
+    }
+
+    .sect-menu__box {
+        margin: 30px 0 0 0;
+        padding: 0;
+    }
+
+    .sect-menu__box-line {
+        border: none;
+    }
+
+    .sect-menu__box-item {
+        padding: 20px 10px 30px 10px;
+    }
+
+    .sect-menu__price {
+        padding: 0 10px;
+    }
+
+    .sect-staff__box {
+        padding: 30px 0 0 0;
+        flex-wrap: wrap;
+    }
+
+    .sect-staff__item {
+        width: 47%;
+        margin-bottom: 50px;
+    }
+
+    .sect-staff__name-en {
+        font-size: 5.5vw;
+    }
+
+    .sect-staff__job {
+        font-size: 1.4rem;
+    }
+
+    .sect-access__info {
+        width: 100%;
+    }
+
+    .sect-access__info dt {
+        width: 30%;
+    }
+
+    .sect-access__info dd {
+        width: 70%;
+    }
+
+    .sect-recruit__flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sect-recruit__flex img  {
+        z-index: 10;
+    }
+
+    .sect-recruit__flex-text {
+        z-index: auto;
+    }
+
+    .sect-recruit__flex-text h3 {
+        font-size: 6vw;
+        z-index: 100;
+    }
+
+    .sect-recruit__flex-text p {
+        position: static;
+    }
 }
