@@ -83,6 +83,18 @@ img {
     left: 50%;
     transform: translate(-50%,-50%);
     color: #fff;
+    text-align: center;
+}
+
+.sect-mv__company-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect-mv__company-icon img {
+    width: 20%;
+    min-width: 80px;
 }
 
 /* 戻るボタン */
